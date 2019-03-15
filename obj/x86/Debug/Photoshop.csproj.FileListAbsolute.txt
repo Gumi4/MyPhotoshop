@@ -1,0 +1,14 @@
+C:\Users\Andrey\Documents\_Photoshop\obj\x86\Debug\Photoshop.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Documents\_Photoshop\obj\x86\Debug\Photoshop.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Documents\_Photoshop\bin\Debug\cat.jpg
+C:\Users\Andrey\Documents\_Photoshop\bin\Debug\MyPhotoshop.exe
+C:\Users\Andrey\Documents\_Photoshop\bin\Debug\MyPhotoshop.pdb
+C:\Users\Andrey\Documents\_Photoshop\obj\x86\Debug\MyPhotoshop.exe
+C:\Users\Andrey\Documents\_Photoshop\obj\x86\Debug\MyPhotoshop.pdb
+D:\Practice\_Photoshop\obj\x86\Debug\Photoshop.csprojAssemblyReference.cache
+D:\Practice\_Photoshop\obj\x86\Debug\Photoshop.csproj.CoreCompileInputs.cache
+D:\Practice\_Photoshop\obj\x86\Debug\MyPhotoshop.exe
+D:\Practice\_Photoshop\obj\x86\Debug\MyPhotoshop.pdb
+D:\Practice\_Photoshop\bin\Debug\cat.jpg
+D:\Practice\_Photoshop\bin\Debug\MyPhotoshop.exe
+D:\Practice\_Photoshop\bin\Debug\MyPhotoshop.pdb
