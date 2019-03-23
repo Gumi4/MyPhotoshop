@@ -12,3 +12,10 @@ D:\Practice\_Photoshop\obj\x86\Debug\MyPhotoshop.pdb
 D:\Practice\_Photoshop\bin\Debug\cat.jpg
 D:\Practice\_Photoshop\bin\Debug\MyPhotoshop.exe
 D:\Practice\_Photoshop\bin\Debug\MyPhotoshop.pdb
+C:\Users\Svetlana\Desktop\MyPhotoshop\MyPhotoshop\obj\x86\Debug\Photoshop.csprojAssemblyReference.cache
+C:\Users\Svetlana\Desktop\MyPhotoshop\MyPhotoshop\obj\x86\Debug\Photoshop.csproj.CoreCompileInputs.cache
+C:\Users\Svetlana\Desktop\MyPhotoshop\MyPhotoshop\obj\x86\Debug\MyPhotoshop.exe
+C:\Users\Svetlana\Desktop\MyPhotoshop\MyPhotoshop\obj\x86\Debug\MyPhotoshop.pdb
+C:\Users\Svetlana\Desktop\MyPhotoshop\MyPhotoshop\bin\Debug\cat.jpg
+C:\Users\Svetlana\Desktop\MyPhotoshop\MyPhotoshop\bin\Debug\MyPhotoshop.exe
+C:\Users\Svetlana\Desktop\MyPhotoshop\MyPhotoshop\bin\Debug\MyPhotoshop.pdb

@@ -1,9 +1,18 @@
-﻿namespace MyPhotoshop.Filters
+﻿using System;
+
+namespace MyPhotoshop.Filters
 {
-    public abstract class PixelFilter <TParameter> : ParametrizedFilter <TParameter>
+    public class PixelFilter<TParameter> : ParametrizedFilter<TParameter>
         where TParameter : IParameters, new()
     {
-        public abstract Pixel ProcessPixel(Pixel original, TParameter parameters);
+        private readonly string name;
+        private readonly Func<Pixel, TParameter, Pixel> processor;
+
+        public PixelFilter(string filterName, Func<Pixel, TParameter, Pixel> processor)
+        {
+            name = filterName;
+            this.processor = processor;
+        }
 
         public override Photo Process(Photo original, TParameter parameters)
         {
@@ -11,11 +20,14 @@
 
             for (var x = 0; x < result.width; x++)
             for (var y = 0; y < result.height; y++)
-                result[x, y] = ProcessPixel(original[x, y], parameters);
+                result[x, y] = processor(original[x, y], parameters);
 
             return result;
         }
 
-        
+        public override string ToString()
+        {
+            return name;
+        }
     }
 }

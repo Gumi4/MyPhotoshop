@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace MyPhotoshop.Filters
+﻿namespace MyPhotoshop.Filters
 {
     public class EmptyParameters : IParameters
     {
-        public ParameterInfo[] GetDesсription() => new ParameterInfo[0];
+        public ParameterInfo[] GetDesсription()
+        {
+            return new ParameterInfo[0];
+        }
 
-        public void SetValues(double[] parameters) => ;
+        public void SetValues(double[] parameters)
+        {
+        }
     }
 }
