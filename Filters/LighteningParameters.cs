@@ -1,20 +1,13 @@
-﻿namespace MyPhotoshop.Filters
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace MyPhotoshop.Filters
 {
-    public class RotationParameters : IParameters
+    public class LighteningParameters : IParameters
     {
-        public double Angle { get; set; }
-
-        public ParameterInfo[] GetDesсription()
-        {
-            return new[]
-            {
-                new ParameterInfo {Name = "Коэффициент", MaxValue = 360, MinValue = 0, Increment = 5, DefaultValue = 0}
-            };
-        }
-
-        public void SetValues(double[] parameters)
-        {
-            Angle = parameters[0];
-        }
+        [ParameterInfo(Name = "Коэффициент", MaxValue = 10, MinValue = 0, Increment = 0.1, DefaultValue = 1)]
+        public double Coefficient { get; set; }
     }
 }

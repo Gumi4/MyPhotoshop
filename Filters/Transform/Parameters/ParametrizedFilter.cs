@@ -1,9 +1,11 @@
-﻿namespace MyPhotoshop.Filters
+﻿using System.Reflection;
+
+namespace MyPhotoshop.Filters
 {
     public abstract class ParametrizedFilter<TParameters> : IFilter
         where TParameters : IParameters, new()
     {
-        public ParameterInfo[] GetParameters() => new TParameters().GetDesсription();
+        public System.Reflection.ParameterInfo[] GetParameters() => new TParameters().GetDesсription();
 
         public Photo Process(Photo original, double[] values)
         {

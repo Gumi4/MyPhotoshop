@@ -7,7 +7,5 @@ namespace MyPhotoshop.Filters
 {
     public interface IParameters
     {
-        ParameterInfo[] GetDesсription();
-        void SetValues(double[] parameters);
     }
 }
